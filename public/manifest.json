@@ -1,0 +1,18 @@
+{
+  "name": "DexStudio Portfolio",
+  "short_name": "DexStudio",
+  "description": "DexStudio Portfolio - Full-stack web developer specializing in scalable applications",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
