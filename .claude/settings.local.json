@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(firebase deploy:*)",
+      "Bash(copy:*)",
+      "Bash(cmd /c copy:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(npx vite build)",
+      "Bash(dir:*)",
+      "Bash(firebase functions:config:set:*)",
+      "Bash(firebase functions:log:*)",
+      "Bash(firebase projects:list:*)",
+      "Bash(firebase functions:artifacts:setpolicy:*)",
+      "Bash(npm run deploy:*)",
+      "Bash(npx firebase deploy:*)",
+      "Bash(test:*)",
+      "Bash(npm run dev:*)",
+      "Bash(node -e:*)",
+      "Bash(python3:*)",
+      "Bash(python -c:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\floet\\Downloads\\garageprov1-firebase-migrated\\garageprov1-firebase-migrated\\iconsimages"
+    ]
+  }
+}
