@@ -41,6 +41,17 @@ jobs:
           VITE_BASE=/GaragePRO/ npx vite build --base /GaragePRO/
           cp -r dist ../../dist/GaragePRO
 
+      # Build ServicePRO branch into dist/servicepro
+      - uses: actions/checkout@v4
+        with:
+          ref: ServicePRO
+          path: _branches/ServicePRO
+      - run: |
+          cd _branches/ServicePRO
+          npm ci
+          VITE_BASE=/servicepro/ npx vite build --base /servicepro/
+          cp -r dist ../../dist/servicepro
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

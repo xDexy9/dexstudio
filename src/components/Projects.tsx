@@ -5,6 +5,7 @@ import projectFintrack from "@/assets/project-fintrack.jpg";
 import projectFlowboard from "@/assets/project-flowboard.jpg";
 import projectCms from "@/assets/project-cms.jpg";
 import projectAutoscale from "@/assets/project-autoscale.jpg";
+import projectServicepro from "@/assets/project-servicepro.jpg";
 
 interface Project {
   name: string;
@@ -46,6 +47,14 @@ const projects: Project[] = [
     demoUrl: "#",
     githubUrl: "#",
     image: projectAutoscale,
+  },
+  {
+    name: "ServicePRO",
+    description: "This is a demo for my portfolio and I would like if it can feel snappy.",
+    techStack: ["React", "TypeScript", "Vite", "Tailwind"],
+    demoUrl: "https://dexstudio.uk/servicepro/",
+    githubUrl: "https://github.com/xDexy9/dexstudio/tree/ServicePRO",
+    image: projectServicepro,
   },
 ];
 
