@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, Github } from "lucide-react";
+import projectGaragepro from "@/assets/project-garagepro.jpg";
 import projectFintrack from "@/assets/project-fintrack.jpg";
 import projectFlowboard from "@/assets/project-flowboard.jpg";
 import projectCms from "@/assets/project-cms.jpg";
@@ -21,7 +22,7 @@ const projects: Project[] = [
     techStack: ["React", "TypeScript", "Tailwind", "Node.js"],
     demoUrl: "https://dexstudio.uk/GaragePRO/",
     githubUrl: "https://github.com/xDexy9/dexstudio/tree/GaragePRO",
-    image: projectFintrack,
+    image: projectGaragepro,
   },
   {
     name: "FlowBoard",
