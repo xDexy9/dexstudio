@@ -48,8 +48,8 @@ jobs:
           path: _branches/ServicePRO
       - run: |
           cd _branches/ServicePRO
-          npm ci
-          VITE_BASE=/servicepro/ npx vite build --base /servicepro/
+          npm install
+          npm run build -- --base /servicepro/
           cp -r dist ../../dist/servicepro
 
       - uses: actions/upload-pages-artifact@v3
