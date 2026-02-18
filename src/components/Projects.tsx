@@ -27,7 +27,7 @@ const projects: Project[] = [
   },
   {
     name: "ServicePRO",
-    description: "This is a demo for my portfolio and I would like if it can feel snappy.",
+    description: "Customer portal for seamless vehicle service booking, real-time appointment tracking, and comprehensive automotive maintenance management.",
     techStack: ["React", "TypeScript", "Vite", "Tailwind"],
     demoUrl: "https://dexstudio.uk/servicepro/",
     githubUrl: "https://github.com/xDexy9/dexstudio/tree/ServicePRO",
