@@ -26,12 +26,12 @@ const projects: Project[] = [
     image: projectGaragepro,
   },
   {
-    name: "FlowBoard",
-    description: "Kanban-style project management tool with real-time collaboration and workflow automation.",
-    techStack: ["React", "Node.js", "PostgreSQL", "WebSockets"],
-    demoUrl: "#",
-    githubUrl: "#",
-    image: projectFlowboard,
+    name: "ServicePRO",
+    description: "This is a demo for my portfolio and I would like if it can feel snappy.",
+    techStack: ["React", "TypeScript", "Vite", "Tailwind"],
+    demoUrl: "https://dexstudio.uk/servicepro/",
+    githubUrl: "https://github.com/xDexy9/dexstudio/tree/ServicePRO",
+    image: projectServicepro,
   },
   {
     name: "ShipFast CMS",
@@ -47,14 +47,6 @@ const projects: Project[] = [
     demoUrl: "#",
     githubUrl: "#",
     image: projectAutoscale,
-  },
-  {
-    name: "ServicePRO",
-    description: "This is a demo for my portfolio and I would like if it can feel snappy.",
-    techStack: ["React", "TypeScript", "Vite", "Tailwind"],
-    demoUrl: "https://dexstudio.uk/servicepro/",
-    githubUrl: "https://github.com/xDexy9/dexstudio/tree/ServicePRO",
-    image: projectServicepro,
   },
 ];
 
