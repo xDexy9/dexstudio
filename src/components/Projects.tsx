@@ -16,11 +16,11 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "FinTrack Pro",
-    description: "Real-time financial dashboard with AI-powered insights and automated reporting for SaaS companies.",
-    techStack: ["React", "TypeScript", "Supabase", "OpenAI"],
-    demoUrl: "#",
-    githubUrl: "#",
+    name: "GaragePRO",
+    description: "Full-service garage management platform with booking, invoicing, and customer management for automotive businesses.",
+    techStack: ["React", "TypeScript", "Tailwind", "Node.js"],
+    demoUrl: "https://dexstudio.uk/GaragePRO/",
+    githubUrl: "https://github.com/xDexy9/dexstudio/tree/GaragePRO",
     image: projectFintrack,
   },
   {
